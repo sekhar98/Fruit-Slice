@@ -1,0 +1,125 @@
+html
+{
+  background:#5f6263;
+  background: black;
+
+}
+#container
+{
+  background-color: #70d3f4;
+  height:600px;
+  width:750px;
+  position: relative;
+  margin: 10px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 0px 0px #62efc9;
+  -moz-box-shadow: 0px 4px 0px 0px #62efc9;
+  -webkit-box-shadow: 0px 4px 0px 0px #62efc9;
+}
+
+#score
+{
+  background-color: #f7cd79;
+  color : black;
+  width: 90px;
+  height: 25px;
+  border-radius: 8px;
+  padding: 10px;
+  position: absolute;
+  left: 650px;
+}
+#scoreboard{
+  padding: 10px 12px;
+}
+#trialsLeft
+{
+  background-color: #f7cd79;
+  color : black;
+  width: 90px;
+  height: 25px;
+  border-radius: 8px;
+  padding: 10px;
+  position: absolute;
+  right: 650px;
+  display: none;
+}
+#fruitsContainer
+{
+  width : 650px;
+  height: 400px;
+  background-color: white;
+  margin: 50px auto 20px auto;
+  border-radius: 6px;
+  -webkit-box-shadow: 0px 4px #535aa8;
+  box-shadow: 0px 4px #535aa8;
+  -moz-box-shadow: 0px 4px #535aa8;
+  position: relative;
+  overflow: hidden;
+}
+#instruction
+{
+  background-color: #c596f2;
+  border-radius: 2px;
+  position: absolute;
+  left :50px;
+  width: 680px;
+  height: 30px;
+  color:white;
+  font-weight: 150px;
+  text-align: center;
+  font-size: 22px;
+  padding: 0px;
+}
+#startreset
+{
+  background-color: red;
+  width: 100px;
+  font-weight: 180px;
+  text-align: center;
+  font-size: 24px;
+  position: absolute;
+  left: 335px;
+  color: white;
+  border-radius: 10px;
+
+}
+#startreset:hover
+{
+  cursor: grab;
+  background-color:#6a6a6b;
+
+}
+
+#gameOver
+{
+  width: 550px;
+  height:200px;
+  color:white;
+  text-align: center;
+  font-weight: 150px;
+  font-size: 27px;
+  background-color: #f27b0c;
+  background: linear-gradient(#F3CA6B, #F3706C);
+  background: -webkit-linear-gradient(#F3CA6B, #F3706C);
+  background: -o-linear-gradient(#F3CA6B, #F3706C);
+  background: -moz-linear-gradient(#F3CA6B, #F3706C);
+  position: absolute;
+  top: 200px;
+  left: 125px;
+  display: none;
+
+
+}
+
+.fruit
+{
+  position: absolute;
+  display: none;
+}
+.life
+{
+  width:20px;
+  height:18px;
+  padding-right: 10px;
+}
